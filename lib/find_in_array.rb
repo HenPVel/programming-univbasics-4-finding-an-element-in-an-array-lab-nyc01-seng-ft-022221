@@ -6,7 +6,7 @@ def find_element_index(array, value_to_find)
     if result==true
       return array[count]
     count+=1
-
+end
   end
 
 end
