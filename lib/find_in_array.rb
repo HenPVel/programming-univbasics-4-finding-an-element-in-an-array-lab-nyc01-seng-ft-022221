@@ -4,7 +4,8 @@ def find_element_index(array, value_to_find)
     result==array[count]
 
     if result==true
-      return array[count]
+      return array.index(value_to_find)
+
     count+=1
 end
   end
